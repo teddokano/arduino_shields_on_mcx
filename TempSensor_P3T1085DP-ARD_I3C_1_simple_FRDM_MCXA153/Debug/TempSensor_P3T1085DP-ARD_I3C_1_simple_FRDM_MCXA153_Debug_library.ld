@@ -1,0 +1,22 @@
+/*
+ * GENERATED FILE - DO NOT EDIT
+ * Copyright 2008-2013 Code Red Technologies Ltd,
+ * Copyright 2013-2025 NXP
+ * SPDX-License-Identifier: BSD-3-Clause
+ * Generated linker script file for MCXA153
+ * Created from library.ldt by FMCreateLinkLibraries
+ * Using Freemarker v2.3.30
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:46:42
+ */
+
+GROUP (
+  "libgcc.a"
+  "libc_nano.a"
+  "libstdc++_nano.a"
+  "libm.a"
+  "libcr_newlib_semihost.a"
+  "crti.o"
+  "crtn.o"
+  "crtbegin.o"
+  "crtend.o"
+)
