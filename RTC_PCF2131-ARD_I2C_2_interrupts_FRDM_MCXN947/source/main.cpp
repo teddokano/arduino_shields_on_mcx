@@ -15,7 +15,7 @@
 	I2C		interface( I2C_SDA, I2C_SCL );	//	SDA, SCL
 	#define	INTF_STR	"I2C"
 #else
-	SPI		interface( D11, D12, D13, D10 );	//	MOSI, MISO, SCLK, CS
+	SPI		interface( ARD_MOSI, ARD_MISO, ARD_SCK, ARD_CS );	//	MOSI, MISO, SCLK, CS
 	#define	INTF_STR	"SPI"
 #endif
 

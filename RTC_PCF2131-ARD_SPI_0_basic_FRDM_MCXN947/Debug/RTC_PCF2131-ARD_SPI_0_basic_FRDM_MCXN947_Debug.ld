@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:49:46
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:26:25
  */
 
 INCLUDE "RTC_PCF2131-ARD_SPI_0_basic_FRDM_MCXN947_Debug_library.ld"

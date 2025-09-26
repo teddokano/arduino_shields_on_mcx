@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:42:18
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:20:54
  */
 
 INCLUDE "GPIO_PCAL6524EV-ARD_0_basic_FRDM_MCXA156_Release_library.ld"

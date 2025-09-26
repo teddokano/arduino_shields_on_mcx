@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:48:48
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:25:20
  */
 
 INCLUDE "MuxSw_PCA9846PW-ARD_2_demo_FRDM_MCXN236_Debug_library.ld"

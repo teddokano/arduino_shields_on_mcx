@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">r01lib<span id="projectnumber">&#160;0.36.5</span>
+   <div id="projectname">r01lib<span id="projectnumber">&#160;0.37.0</span>
    </div>
    <div id="projectbrief">R01 library for abstracting MCUs</div>
   </td>
@@ -110,6 +110,9 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a8c66f4b0497cf5edce3e6f4882f529b6" id="r_a8c66f4b0497cf5edce3e6f4882f529b6"><td class="memItemLeft" align="right" valign="top">lpspi_master_config_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c66f4b0497cf5edce3e6f4882f529b6">masterConfig</a></td></tr>
+<tr class="memitem:ab7d5a6739e756c916e7c0d92e0d2a346" id="r_ab7d5a6739e756c916e7c0d92e0d2a346"><td class="memItemLeft" align="right" valign="top">LPSPI_Type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7d5a6739e756c916e7c0d92e0d2a346">unit_base</a></td></tr>
+<tr class="memitem:a1db76776302a20b94f8a867825b440c3" id="r_a1db76776302a20b94f8a867825b440c3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db76776302a20b94f8a867825b440c3">master_clk_freq</a></td></tr>
+<tr class="memitem:a710870266e70e6f258dd15b172c0d9b6" id="r_a710870266e70e6f258dd15b172c0d9b6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710870266e70e6f258dd15b172c0d9b6">master_pcs_4_xfer</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_s_p_i.html">SPI</a> class</p>
@@ -156,9 +159,9 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00070">70</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00061">61</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="spi_8cpp_source.html#l00129">frequency()</a>, <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>, <a class="el" href="spi_8cpp_source.html#l00141">mode()</a>, <a class="el" href="obj_8cpp_source.html#l00013">Obj::Obj()</a>, <a class="el" href="io_8cpp_source.html#l00479">DigitalInOut::pin_mux()</a>, and <a class="el" href="spi_8h_source.html#l00017">SPI_FREQ</a>.</p>
+<p class="reference">References <a class="el" href="spi_8cpp_source.html#l00135">frequency()</a>, <a class="el" href="spi_8h_source.html#l00074">master_clk_freq</a>, <a class="el" href="spi_8h_source.html#l00075">master_pcs_4_xfer</a>, <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>, <a class="el" href="spi_8cpp_source.html#l00147">mode()</a>, <a class="el" href="obj_8cpp_source.html#l00013">Obj::Obj()</a>, <a class="el" href="mcu_8cpp_source.html#l00202">panic()</a>, <a class="el" href="io_8cpp_source.html#l00479">DigitalInOut::pin_mux()</a>, <a class="el" href="spi_8h_source.html#l00017">SPI_FREQ</a>, and <a class="el" href="spi_8h_source.html#l00073">unit_base</a>.</p>
 
 </div>
 </div>
@@ -186,7 +189,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Destractor to freeing <a class="el" href="class_s_p_i.html">SPI</a> resource </p>
 
-<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00124">124</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00130">130</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="spi_8h_source.html#l00073">unit_base</a>.</p>
 
 </div>
 </div>
@@ -221,9 +226,9 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00129">129</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00135">135</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="spi_8cpp_source.html#l00129">frequency()</a>, and <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>.</p>
+<p class="reference">References <a class="el" href="spi_8cpp_source.html#l00135">frequency()</a>, <a class="el" href="spi_8h_source.html#l00074">master_clk_freq</a>, <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>, and <a class="el" href="spi_8h_source.html#l00073">unit_base</a>.</p>
 
 </div>
 </div>
@@ -257,9 +262,9 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00141">141</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00147">147</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>, and <a class="el" href="spi_8cpp_source.html#l00141">mode()</a>.</p>
+<p class="reference">References <a class="el" href="spi_8h_source.html#l00074">master_clk_freq</a>, <a class="el" href="spi_8h_source.html#l00072">masterConfig</a>, <a class="el" href="spi_8cpp_source.html#l00147">mode()</a>, and <a class="el" href="spi_8h_source.html#l00073">unit_base</a>.</p>
 
 </div>
 </div>
@@ -304,7 +309,9 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00150">150</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="spi_8cpp_source.html#l00156">156</a> of file <a class="el" href="spi_8cpp_source.html">spi.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="spi_8h_source.html#l00075">master_pcs_4_xfer</a>, and <a class="el" href="spi_8h_source.html#l00073">unit_base</a>.</p>
 
 </div>
 </div>
@@ -323,6 +330,54 @@ Private Attributes</h2></td></tr>
 <p>variable for reporting last state </p>
 
 <p class="definition">Definition at line <a class="el" href="spi_8h_source.html#l00069">69</a> of file <a class="el" href="spi_8h_source.html">spi.h</a>.</p>
+
+</div>
+</div>
+<a id="a1db76776302a20b94f8a867825b440c3" name="a1db76776302a20b94f8a867825b440c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db76776302a20b94f8a867825b440c3">&#9670;&#160;</a></span>master_clk_freq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SPI::master_clk_freq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="spi_8h_source.html#l00074">74</a> of file <a class="el" href="spi_8h_source.html">spi.h</a>.</p>
+
+</div>
+</div>
+<a id="a710870266e70e6f258dd15b172c0d9b6" name="a710870266e70e6f258dd15b172c0d9b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a710870266e70e6f258dd15b172c0d9b6">&#9670;&#160;</a></span>master_pcs_4_xfer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SPI::master_pcs_4_xfer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="spi_8h_source.html#l00075">75</a> of file <a class="el" href="spi_8h_source.html">spi.h</a>.</p>
 
 </div>
 </div>
@@ -347,6 +402,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="spi_8h_source.html#l00072">72</a> of file <a class="el" href="spi_8h_source.html">spi.h</a>.</p>
+
+</div>
+</div>
+<a id="ab7d5a6739e756c916e7c0d92e0d2a346" name="ab7d5a6739e756c916e7c0d92e0d2a346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7d5a6739e756c916e7c0d92e0d2a346">&#9670;&#160;</a></span>unit_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPSPI_Type* SPI::unit_base</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="spi_8h_source.html#l00073">73</a> of file <a class="el" href="spi_8h_source.html">spi.h</a>.</p>
 
 </div>
 </div>

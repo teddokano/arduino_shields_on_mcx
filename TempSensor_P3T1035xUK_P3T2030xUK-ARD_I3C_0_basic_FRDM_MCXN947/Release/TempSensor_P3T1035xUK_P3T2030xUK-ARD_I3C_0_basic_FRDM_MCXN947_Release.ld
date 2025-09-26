@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:43:30
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:21:59
  */
 
 INCLUDE "TempSensor_P3T1035xUK_P3T2030xUK-ARD_I3C_0_basic_FRDM_MCXN947_Release_library.ld"

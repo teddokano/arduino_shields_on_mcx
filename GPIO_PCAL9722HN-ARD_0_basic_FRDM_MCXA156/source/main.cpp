@@ -14,7 +14,7 @@ static constexpr int	 MISO_PIN	= D12;
 static constexpr int	 SCLK_PIN	= D13;
 static constexpr int	   CS_PIN	= D10;
 
-SPI	spi( MOSI_PIN, MISO_PIN, SCLK_PIN, CS_PIN );
+SPI		spi( ARD_MOSI, ARD_MISO, ARD_SCK, ARD_CS );	//	MOSI, MISO, SCLK, CS
 
 uint8_t	hardware_reset( bool address_setting );
 void	register_write( uint8_t dev_addr, uint8_t reg_addr, uint8_t value );

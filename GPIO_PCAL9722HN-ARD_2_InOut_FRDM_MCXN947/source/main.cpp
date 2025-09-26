@@ -7,7 +7,7 @@
 #include	"r01lib.h"
 #include	"gpio/PCAL9722.h"
 
-SPI			spi( D11, D12, D13, D10 );
+SPI			spi( ARD_MOSI, ARD_MISO, ARD_SCK, ARD_CS );	//	MOSI, MISO, SCLK, CS
 PCAL9722	gpio( spi );
 
 int main(void)

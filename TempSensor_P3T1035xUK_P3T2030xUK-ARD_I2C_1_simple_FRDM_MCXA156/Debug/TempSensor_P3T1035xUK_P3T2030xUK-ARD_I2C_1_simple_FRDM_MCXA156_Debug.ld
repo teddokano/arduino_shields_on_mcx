@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/01 17:47:37
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:24:20
  */
 
 INCLUDE "TempSensor_P3T1035xUK_P3T2030xUK-ARD_I2C_1_simple_FRDM_MCXA156_Debug_library.ld"

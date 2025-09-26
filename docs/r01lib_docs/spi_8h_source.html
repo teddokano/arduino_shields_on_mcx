@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">r01lib<span id="projectnumber">&#160;0.36.5</span>
+   <div id="projectname">r01lib<span id="projectnumber">&#160;0.37.0</span>
    </div>
    <div id="projectbrief">R01 library for abstracting MCUs</div>
   </td>
@@ -117,18 +117,24 @@ $(function() {
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="class_s_p_i.html#a8c66f4b0497cf5edce3e6f4882f529b6">   72</a></span>    lpspi_master_config_t   <a class="code hl_variable" href="class_s_p_i.html#a8c66f4b0497cf5edce3e6f4882f529b6">masterConfig</a>;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_s_p_i.html#ab7d5a6739e756c916e7c0d92e0d2a346">   73</a></span>    LPSPI_Type              *<a class="code hl_variable" href="class_s_p_i.html#ab7d5a6739e756c916e7c0d92e0d2a346">unit_base</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="class_s_p_i.html#a1db76776302a20b94f8a867825b440c3">   74</a></span>    uint32_t                <a class="code hl_variable" href="class_s_p_i.html#a1db76776302a20b94f8a867825b440c3">master_clk_freq</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_s_p_i.html#a710870266e70e6f258dd15b172c0d9b6">   75</a></span>    uint32_t                <a class="code hl_variable" href="class_s_p_i.html#a710870266e70e6f258dd15b172c0d9b6">master_pcs_4_xfer</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
 </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif </span><span class="comment">// R01LIB_SPI_H</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif </span><span class="comment">// R01LIB_SPI_H</span></div>
 <div class="ttc" id="aclass_obj_html_a963b6bbaf9c2b6c3c401ac02131744fa"><div class="ttname"><a href="class_obj.html#a963b6bbaf9c2b6c3c401ac02131744fa">Obj::Obj</a></div><div class="ttdeci">Obj(bool done=false)</div><div class="ttdef"><b>Definition</b> <a href="obj_8cpp_source.html#l00013">obj.cpp:13</a></div></div>
-<div class="ttc" id="aclass_s_p_i_html_a0d8aeac3e331a93b940e1fc65b7960f8"><div class="ttname"><a href="class_s_p_i.html#a0d8aeac3e331a93b940e1fc65b7960f8">SPI::write</a></div><div class="ttdeci">virtual status_t write(uint8_t *wp, uint8_t *rp, int length)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00150">spi.cpp:150</a></div></div>
-<div class="ttc" id="aclass_s_p_i_html_a6babebf1ea3e8ff0330f43a3e2312ac4"><div class="ttname"><a href="class_s_p_i.html#a6babebf1ea3e8ff0330f43a3e2312ac4">SPI::~SPI</a></div><div class="ttdeci">virtual ~SPI()</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00124">spi.cpp:124</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_a0d8aeac3e331a93b940e1fc65b7960f8"><div class="ttname"><a href="class_s_p_i.html#a0d8aeac3e331a93b940e1fc65b7960f8">SPI::write</a></div><div class="ttdeci">virtual status_t write(uint8_t *wp, uint8_t *rp, int length)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00156">spi.cpp:156</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_a1db76776302a20b94f8a867825b440c3"><div class="ttname"><a href="class_s_p_i.html#a1db76776302a20b94f8a867825b440c3">SPI::master_clk_freq</a></div><div class="ttdeci">uint32_t master_clk_freq</div><div class="ttdef"><b>Definition</b> <a href="#l00074">spi.h:74</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_a6babebf1ea3e8ff0330f43a3e2312ac4"><div class="ttname"><a href="class_s_p_i.html#a6babebf1ea3e8ff0330f43a3e2312ac4">SPI::~SPI</a></div><div class="ttdeci">virtual ~SPI()</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00130">spi.cpp:130</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_a710870266e70e6f258dd15b172c0d9b6"><div class="ttname"><a href="class_s_p_i.html#a710870266e70e6f258dd15b172c0d9b6">SPI::master_pcs_4_xfer</a></div><div class="ttdeci">uint32_t master_pcs_4_xfer</div><div class="ttdef"><b>Definition</b> <a href="#l00075">spi.h:75</a></div></div>
 <div class="ttc" id="aclass_s_p_i_html_a8c66f4b0497cf5edce3e6f4882f529b6"><div class="ttname"><a href="class_s_p_i.html#a8c66f4b0497cf5edce3e6f4882f529b6">SPI::masterConfig</a></div><div class="ttdeci">lpspi_master_config_t masterConfig</div><div class="ttdef"><b>Definition</b> <a href="#l00072">spi.h:72</a></div></div>
-<div class="ttc" id="aclass_s_p_i_html_ab59c4c86e1139b23c1b127cc45ebf6da"><div class="ttname"><a href="class_s_p_i.html#ab59c4c86e1139b23c1b127cc45ebf6da">SPI::SPI</a></div><div class="ttdeci">SPI(int mosi=D11, int miso=D12, int sclk=D13, int cs=D10)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00070">spi.cpp:70</a></div></div>
-<div class="ttc" id="aclass_s_p_i_html_abd71d3bd1d6a0337de84f03de7a87f19"><div class="ttname"><a href="class_s_p_i.html#abd71d3bd1d6a0337de84f03de7a87f19">SPI::frequency</a></div><div class="ttdeci">virtual void frequency(uint32_t frequency=SPI_FREQ)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00129">spi.cpp:129</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_ab59c4c86e1139b23c1b127cc45ebf6da"><div class="ttname"><a href="class_s_p_i.html#ab59c4c86e1139b23c1b127cc45ebf6da">SPI::SPI</a></div><div class="ttdeci">SPI(int mosi=D11, int miso=D12, int sclk=D13, int cs=D10)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00061">spi.cpp:61</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_ab7d5a6739e756c916e7c0d92e0d2a346"><div class="ttname"><a href="class_s_p_i.html#ab7d5a6739e756c916e7c0d92e0d2a346">SPI::unit_base</a></div><div class="ttdeci">LPSPI_Type * unit_base</div><div class="ttdef"><b>Definition</b> <a href="#l00073">spi.h:73</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_abd71d3bd1d6a0337de84f03de7a87f19"><div class="ttname"><a href="class_s_p_i.html#abd71d3bd1d6a0337de84f03de7a87f19">SPI::frequency</a></div><div class="ttdeci">virtual void frequency(uint32_t frequency=SPI_FREQ)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00135">spi.cpp:135</a></div></div>
 <div class="ttc" id="aclass_s_p_i_html_ad2f260501cc43fb5063f31882b57d8dd"><div class="ttname"><a href="class_s_p_i.html#ad2f260501cc43fb5063f31882b57d8dd">SPI::last_status</a></div><div class="ttdeci">status_t last_status</div><div class="ttdef"><b>Definition</b> <a href="#l00069">spi.h:69</a></div></div>
-<div class="ttc" id="aclass_s_p_i_html_ad7f4e6091db10cddd215d29fea9cd5f4"><div class="ttname"><a href="class_s_p_i.html#ad7f4e6091db10cddd215d29fea9cd5f4">SPI::mode</a></div><div class="ttdeci">virtual void mode(uint8_t mode=0)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00141">spi.cpp:141</a></div></div>
+<div class="ttc" id="aclass_s_p_i_html_ad7f4e6091db10cddd215d29fea9cd5f4"><div class="ttname"><a href="class_s_p_i.html#ad7f4e6091db10cddd215d29fea9cd5f4">SPI::mode</a></div><div class="ttdeci">virtual void mode(uint8_t mode=0)</div><div class="ttdef"><b>Definition</b> <a href="spi_8cpp_source.html#l00147">spi.cpp:147</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="io_8h.html">io.h</a></div></div>
 <div class="ttc" id="aspi_8h_html"><div class="ttname"><a href="spi_8h.html">spi.h</a></div></div>
 <div class="ttc" id="aspi_8h_html_a6254a4e77c7f2f980d5f49538893d0ab"><div class="ttname"><a href="spi_8h.html#a6254a4e77c7f2f980d5f49538893d0ab">SPI_FREQ</a></div><div class="ttdeci">#define SPI_FREQ</div><div class="ttdef"><b>Definition</b> <a href="#l00017">spi.h:17</a></div></div>

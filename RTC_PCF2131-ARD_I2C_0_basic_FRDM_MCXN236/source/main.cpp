@@ -17,7 +17,7 @@ uint8_t 	i2c_address = (0xA6 >> 1);
 I2C_device	device( i2c, i2c_address );
 #define	INTF_STR	"I2C"
 #else
-SPI			spi( D11, D12, D13, D10 );	//	MOSI, MISO, SCLK, CS
+SPI			spi( ARD_MOSI, ARD_MISO, ARD_SCK, ARD_CS );	//	MOSI, MISO, SCLK, CS
 SPI_for_RTC	device( spi );
 #define	INTF_STR	"SPI"
 #endif

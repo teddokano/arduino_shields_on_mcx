@@ -9,7 +9,7 @@
 #include	<ctype.h>
 #include	<string.h>
 
-SPI			spi( D11, D12, D13, D10 );
+SPI			spi( ARD_MOSI, ARD_MISO, ARD_SCK, ARD_CS );	//	MOSI, MISO, SCLK, CS
 PCAL9722	gpio( spi );
 InterruptIn	int_pin( D7 );
 Ticker		t;
