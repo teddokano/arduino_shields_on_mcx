@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:22:28
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:08:13
  */
 
 INCLUDE "GPIO_PCAL6416AEV-ARD_1_Out_FRDM_MCXN947_Release_library.ld"

@@ -794,7 +794,7 @@
 	</storageModule>
 	<storageModule moduleId="com.nxp.mcuxpresso.core.datamodels">
 		<sdkName>SDK_2.x_FRDM-MCXN236</sdkName>
-		<sdkVersion>25.06.00</sdkVersion>
+		<sdkVersion>25.09.00</sdkVersion>
 		<sdkComponents>middleware.baremetal.MCXN236;platform.drivers.reset.MCXN236;utility.debug_console.MCXN236;platform.drivers.clock.MCXN236;platform.drivers.lpflexcomm_lpuart.MCXN236;component.lpuart_adapter.MCXN236;platform.drivers.port.MCXN236;component.serial_manager_uart.MCXN236;component.lists.MCXN236;platform.drivers.gpio.MCXN236;component.serial_manager.MCXN236;platform.utilities.assert.MCXN236;platform.drivers.mcx_spc.MCXN236;platform.drivers.lpflexcomm.MCXN236;CMSIS_Include_core_cm.MCXN236;platform.drivers.common.MCXN236;</sdkComponents>
 		<boardId>frdmmcxn236</boardId>
 		<package>MCXN236VDF</package>

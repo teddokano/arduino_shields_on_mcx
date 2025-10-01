@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:24:37
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:11:15
  */
 
 INCLUDE "LCD_PCA8561AHN-ARD_2_demo_FRDM_MCXA156_Debug_library.ld"

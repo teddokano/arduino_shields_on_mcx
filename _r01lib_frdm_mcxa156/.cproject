@@ -541,7 +541,7 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="com.nxp.mcuxpresso.core.datamodels">
 		<sdkName>SDK_2.x_FRDM-MCXA156</sdkName>
-		<sdkVersion>25.06.00</sdkVersion>
+		<sdkVersion>25.09.00</sdkVersion>
 		<sdkComponents>middleware.baremetal.MCXA156;project_template.frdmmcxa156.MCXA156;CMSIS_Include_core_cm.MCXA156;platform.drivers.common.MCXA156;platform.utilities.assert.MCXA156;platform.drivers.mcx_spc.MCXA156;platform.drivers.port.MCXA156;utility.debug_console.MCXA156;platform.drivers.gpio.MCXA156;device.MCXA156_CMSIS.MCXA156;component.serial_manager_uart.MCXA156;component.lists.MCXA156;utility.str.MCXA156;component.lpuart_adapter.MCXA156;device.MCXA156_system.MCXA156;component.serial_manager.MCXA156;platform.drivers.clock.MCXA156;device.MCXA156_startup.MCXA156;platform.drivers.reset.MCXA156;platform.drivers.lpuart.MCXA156;</sdkComponents>
 		<boardId>frdmmcxa156</boardId>
 		<package>MCXA156VLL</package>

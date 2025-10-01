@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:25:27
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:12:15
  */
 
 INCLUDE "GPIO_PCAL9722HN-ARD_4_demo_FRDM_MCXN236_Debug_library.ld"

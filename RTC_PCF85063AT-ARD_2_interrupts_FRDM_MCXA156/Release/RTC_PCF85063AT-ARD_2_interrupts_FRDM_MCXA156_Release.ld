@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:20:34
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:06:12
  */
 
 INCLUDE "RTC_PCF85063AT-ARD_2_interrupts_FRDM_MCXA156_Release_library.ld"

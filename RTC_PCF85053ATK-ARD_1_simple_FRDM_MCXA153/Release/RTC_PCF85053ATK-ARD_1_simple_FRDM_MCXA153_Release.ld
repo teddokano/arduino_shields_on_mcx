@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA153
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/09/26 10:19:52
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:05:31
  */
 
 INCLUDE "RTC_PCF85053ATK-ARD_1_simple_FRDM_MCXA153_Release_library.ld"
