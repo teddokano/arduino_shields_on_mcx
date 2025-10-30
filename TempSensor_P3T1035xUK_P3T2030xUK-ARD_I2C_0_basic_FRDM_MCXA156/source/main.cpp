@@ -15,6 +15,10 @@ uint8_t				r_data[ 2 ];
 int main( void )
 {
 	printf( "***** Hello, P3T1035/P3T2030! *****\r\n" );
+	
+	//	wait reset recovery time of temp sensor (20ms) for if the system is started by power-on
+	wait( 0.02 );
+	
 	i2c.scan();
 
 	while ( true )

@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/01 15:08:19
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/31 4:20:12
  */
 
 INCLUDE "app_template_FRDM_MCXA156_Release_library.ld"

@@ -18,6 +18,9 @@ int main( void )
 {
 	printf( "P3T1085 basic operation sample\r\n");
 
+	//	wait reset recovery time of temp sensor (20ms) for if the system is started by power-on
+	wait( 0.02 );
+	
 	i3c.ccc_broadcast( CCC::BROADCAST_RSTDAA, NULL, 0 ); // Reset DAA
 	i3c.ccc_set( CCC::DIRECT_SETDASA, static_address, dynamic_address << 1 ); // Set Dynamic Address from Static Address
 

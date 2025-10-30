@@ -13,6 +13,10 @@ P3T1085	sensor( i2c, 0x48 );
 int main( void )
 {
 	printf( "***** Hello, P3T1085! *****\r\n" );
+
+	//	wait reset recovery time of temp sensor (20ms) for if the system is started by power-on
+	wait( 0.02 );
+	
 	i2c.scan();
 
 	float	temp;
