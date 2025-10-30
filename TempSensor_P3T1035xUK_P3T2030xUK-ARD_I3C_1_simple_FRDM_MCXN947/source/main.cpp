@@ -26,6 +26,9 @@ int main( void )
 {
 	printf("P3T1035/P3T2030 (Temperature sensor) I3C operation sample: getting temperature data\r\n");
 
+	//	wait reset recovery time of temp sensor (20ms) for if the system is started by power-on
+	wait( 0.02 );
+	
 	DAA_set_dynamic_ddress_from_static_ddress( static_address, dynamic_address );
 	sensor.address_overwrite( dynamic_address );
 

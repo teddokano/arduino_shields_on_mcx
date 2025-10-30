@@ -45,6 +45,9 @@ int main( void )
 
 	PRINTF("\r\nP3T1035/P3T2030 (Temperature sensor) I3C operation sample: getting temperature data and IBI\r\n");
 
+	//	wait reset recovery time of temp sensor (20ms) for if the system is started by power-on
+	wait( 0.02 );
+	
 	int	ndev	= DAA( dynamic_address_list, sizeof( dynamic_address_list ) );
 
 	float	ref_temp	= 0;
