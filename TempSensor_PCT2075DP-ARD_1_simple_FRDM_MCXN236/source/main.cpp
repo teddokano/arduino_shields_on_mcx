@@ -13,6 +13,7 @@ PCT2075	sensor( i2c );
 int main( void )
 {
 	printf( "***** Hello, PCT2075! *****\r\n" );
+
 	i2c.scan();
 
 	float	temp;
