@@ -48,12 +48,13 @@ int main( void )
 			sin0	= sin( (i + 0 * cycle / 3) * cycle_pi );
 			sin1	= sin( (i + 1 * cycle / 3) * cycle_pi );
 			sin2	= sin( (i + 2 * cycle / 3) * cycle_pi );
-			leds[  0 ]	= leds[  4 ]	= leds[  9 ]	= sin0 * sin0;
-			leds[  1 ]	= leds[  6 ]	= leds[  7 ]	= sin1 * sin1;
-			leds[  2 ]	= leds[  3 ]	= leds[  8 ]	= sin2 * sin2;
+			leds[  0 ]	= leds[  5 ]	= leds[  7 ]	= leds[ 11 ]	= sin0 * sin0;
+			leds[  1 ]	= leds[  3 ]	= leds[  8 ]	= leds[ 10 ]	= sin1 * sin1;
+			leds[  2 ]	= leds[  4 ]	= leds[  6 ]	= leds[  9 ]	= sin2 * sin2;
 
-			leds[  9 ]	= leds[ 10 ]	= leds[ 11 ]	= leds[ 12 ]	= white;
-			leds[  13 ]	= leds[ 14 ]	= leds[ 15 ]					= white;
+			leds[ 12 ]	= leds[ 13 ]	= leds[ 14 ]	= leds[ 15 ]	= white;
+			leds[ 16 ]	= leds[ 17 ]	= leds[ 18 ]	= leds[ 19 ]	= white;
+			leds[ 20 ]	= leds[ 21 ]	= leds[ 22 ]	= leds[ 23 ]	= white;
 
 			white	*= 0.9;
 

@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/31 4:27:12
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:32:26
  */
 
 INCLUDE "RTC_PCF85063AT-ARD_2_interrupts_FRDM_MCXN947_Debug_library.ld"

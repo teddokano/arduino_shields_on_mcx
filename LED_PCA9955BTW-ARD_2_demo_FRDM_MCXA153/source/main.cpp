@@ -23,8 +23,6 @@ LED		leds[]	= {
 		LED( ledd,  4 ), LED( ledd,  5 ), LED( ledd,  6 ), LED( ledd,  7 ),
 		LED( ledd,  8 ), LED( ledd,  9 ), LED( ledd, 10 ), LED( ledd, 11 ),
 		LED( ledd, 12 ), LED( ledd, 13 ), LED( ledd, 14 ), LED( ledd, 15 ),
-		LED( ledd, 16 ), LED( ledd, 17 ), LED( ledd, 18 ), LED( ledd, 19 ),
-		LED( ledd, 20 ), LED( ledd, 21 ), LED( ledd, 22 ), LED( ledd, 23 )
 };
 
 int main( void )

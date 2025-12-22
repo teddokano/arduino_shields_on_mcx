@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/10/31 4:19:53
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:12:05
  */
 
 INCLUDE "LED_PCA9955BTW-ARD_0_basic_FRDM_MCXN947_Release_library.ld"

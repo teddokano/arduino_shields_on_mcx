@@ -16,6 +16,7 @@ RM := rm -rf
 -include source/r01device/rtc/subdir.mk
 -include source/r01device/mux_sw/subdir.mk
 -include source/r01device/misc/potentiometer/subdir.mk
+-include source/r01device/misc/lcd/subdir.mk
 -include source/r01device/misc/eeprom/subdir.mk
 -include source/r01device/led/subdir.mk
 -include source/r01device/lcd/subdir.mk
