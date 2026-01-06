@@ -1,12 +1,12 @@
 /*
  * GENERATED FILE - DO NOT EDIT
  * Copyright 2008-2013 Code Red Technologies Ltd,
- * Copyright 2013-2025 NXP
+ * Copyright 2013-2026 NXP
  * SPDX-License-Identifier: BSD-3-Clause
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:31:44
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:56:58
  */
 
 INCLUDE "TempSensor_PCT2075DP-ARD_1_simple_FRDM_MCXA156_Debug_library.ld"

@@ -19,7 +19,7 @@ int main( void )
 
 	while ( true )
 	{
-		i2c.write( static_address, w_data, sizeof( w_data ), I3C::NO_STOP );
+		i2c.write( static_address, w_data, sizeof( w_data ), I2C::NO_STOP );
 		i2c.read(  static_address, r_data, sizeof( r_data ) );
 
 		printf( "%f\r\n", (((int)r_data[ 0 ]) << 8 | r_data[ 1 ]) / 256.0 );

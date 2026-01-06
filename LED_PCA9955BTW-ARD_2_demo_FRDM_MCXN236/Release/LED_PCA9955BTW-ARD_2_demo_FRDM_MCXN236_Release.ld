@@ -1,12 +1,12 @@
 /*
  * GENERATED FILE - DO NOT EDIT
  * Copyright 2008-2013 Code Red Technologies Ltd,
- * Copyright 2013-2025 NXP
+ * Copyright 2013-2026 NXP
  * SPDX-License-Identifier: BSD-3-Clause
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:11:06
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:51:57
  */
 
 INCLUDE "LED_PCA9955BTW-ARD_2_demo_FRDM_MCXN236_Release_library.ld"

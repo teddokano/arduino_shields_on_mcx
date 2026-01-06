@@ -1,12 +1,12 @@
 /*
  * GENERATED FILE - DO NOT EDIT
  * Copyright 2008-2013 Code Red Technologies Ltd,
- * Copyright 2013-2025 NXP
+ * Copyright 2013-2026 NXP
  * SPDX-License-Identifier: BSD-3-Clause
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:10:50
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:51:42
  */
 
 INCLUDE "TempSensor_P3T1035xUK_P3T2030xUK-ARD_I2C_1_simple_FRDM_MCXN236_Release_library.ld"

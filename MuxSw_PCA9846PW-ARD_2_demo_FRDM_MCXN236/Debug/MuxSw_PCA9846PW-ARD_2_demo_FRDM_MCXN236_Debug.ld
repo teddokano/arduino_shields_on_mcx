@@ -1,12 +1,12 @@
 /*
  * GENERATED FILE - DO NOT EDIT
  * Copyright 2008-2013 Code Red Technologies Ltd,
- * Copyright 2013-2025 NXP
+ * Copyright 2013-2026 NXP
  * SPDX-License-Identifier: BSD-3-Clause
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2025/12/23 5:32:11
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:58:36
  */
 
 INCLUDE "MuxSw_PCA9846PW-ARD_2_demo_FRDM_MCXN236_Debug_library.ld"
