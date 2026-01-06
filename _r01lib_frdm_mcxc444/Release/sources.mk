@@ -47,6 +47,7 @@ source/r01device/rtc \
 source/r01device/rtc/tzcode \
 source/r01device/temp_sensor \
 source/r01lib \
+startup \
 utilities/debug_console_lite \
 utilities \
 utilities/str \

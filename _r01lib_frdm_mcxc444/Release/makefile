@@ -11,6 +11,7 @@ RM := rm -rf
 -include utilities/str/subdir.mk
 -include utilities/debug_console_lite/subdir.mk
 -include utilities/subdir.mk
+-include startup/subdir.mk
 -include source/r01lib/subdir.mk
 -include source/r01device/temp_sensor/subdir.mk
 -include source/r01device/rtc/tzcode/subdir.mk

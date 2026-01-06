@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include source/subdir.mk
+-include _r01lib_irq/subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C++M_DEPS)),)
 -include $(C++M_DEPS)
@@ -65,7 +66,7 @@ main-build: LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.axf
 LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"/Users/tedd/dev/mcuxpresso/arduino_shields_on_mcx/_r01lib_frdm_mcxc444/Debug" -Xlinker -Map="LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444_Release.ld -o "LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.axf" $(OBJS) $(USER_OBJS) $(LIBS) -l_r01lib_frdm_mcxc444
+	arm-none-eabi-c++ -nostdlib -L"/Users/tedd/dev/mcuxpresso/arduino_shields_on_mcx/_r01lib_frdm_mcxc444/Release" -Xlinker -Map="LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444_Release.ld -u _printf_float -u _scanf_float -o "LED_PCA9955BTW-ARD_1_simple_FRDM_MCXC444.axf" $(OBJS) $(USER_OBJS) $(LIBS) -l_r01lib_frdm_mcxc444
 	@echo 'Finished building target: $@'
 	@echo ' '
 

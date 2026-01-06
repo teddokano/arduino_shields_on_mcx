@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA153
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:50:06
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:51:11
  */
 
 INCLUDE "GPIO_PCAL9722HN-ARD_4_demo_FRDM_MCXA153_Release_library.ld"

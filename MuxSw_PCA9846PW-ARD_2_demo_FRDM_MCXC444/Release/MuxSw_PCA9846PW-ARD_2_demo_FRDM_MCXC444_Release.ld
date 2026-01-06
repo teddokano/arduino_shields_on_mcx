@@ -6,7 +6,7 @@
  * Generated linker script file for MCXC444
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 13:51:19
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:52:24
  */
 
 INCLUDE "MuxSw_PCA9846PW-ARD_2_demo_FRDM_MCXC444_Release_library.ld"

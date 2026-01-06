@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include source/ldo/subdir.mk
 -include source/subdir.mk
+-include _r01lib_irq/subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C++M_DEPS)),)
 -include $(C++M_DEPS)
@@ -66,7 +67,7 @@ main-build: VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.axf
 VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"/Users/tedd/dev/mcuxpresso/arduino_shields_on_mcx/_r01lib_frdm_mcxc444/Debug" -Xlinker -Map="VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444_Release.ld -o "VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.axf" $(OBJS) $(USER_OBJS) $(LIBS) -l_r01lib_frdm_mcxc444
+	arm-none-eabi-c++ -nostdlib -L"/Users/tedd/dev/mcuxpresso/arduino_shields_on_mcx/_r01lib_frdm_mcxc444/Release" -Xlinker -Map="VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444_Release.ld -u _printf_float -u _scanf_float -o "VLT_NTS0304EUK-ARD_2_demo_FRDM_MCXC444.axf" $(OBJS) $(USER_OBJS) $(LIBS) -l_r01lib_frdm_mcxc444
 	@echo 'Finished building target: $@'
 	@echo ' '
 
