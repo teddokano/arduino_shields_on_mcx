@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:57:31
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:17:12
  */
 
 INCLUDE "RTC_PCF85053ATK-ARD_2_alarm_interrupt_FRDM_MCXN236_Debug_library.ld"

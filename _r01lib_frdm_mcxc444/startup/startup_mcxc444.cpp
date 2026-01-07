@@ -49,7 +49,7 @@ __attribute__ ((used,section(".FlashConfig"))) const struct {
     unsigned int word2;
     unsigned int word3;
     unsigned int word4;
-} Flash_Config = {0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFF3DFE};
+} Flash_Config = {0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFF3BFE};
 //*****************************************************************************
 // Declaration of external SystemInit function
 //*****************************************************************************

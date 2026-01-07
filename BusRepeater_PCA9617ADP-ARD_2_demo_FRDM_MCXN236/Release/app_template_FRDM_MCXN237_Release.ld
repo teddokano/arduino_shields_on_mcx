@@ -6,11 +6,11 @@
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:58:07
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:13:54
  */
 
-INCLUDE "BusRepeater_PCA9617ADP-ARD_2_demo_FRDM_MCXN236_Debug_library.ld"
-INCLUDE "BusRepeater_PCA9617ADP-ARD_2_demo_FRDM_MCXN236_Debug_memory.ld"
+INCLUDE "app_template_FRDM_MCXN237_Release_library.ld"
+INCLUDE "app_template_FRDM_MCXN237_Release_memory.ld"
 
 ENTRY(ResetISR)
 

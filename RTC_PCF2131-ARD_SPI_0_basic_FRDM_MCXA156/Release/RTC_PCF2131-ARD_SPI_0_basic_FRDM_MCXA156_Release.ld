@@ -6,7 +6,7 @@
  * Generated linker script file for MCXA156
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:51:48
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:03:04
  */
 
 INCLUDE "RTC_PCF2131-ARD_SPI_0_basic_FRDM_MCXA156_Release_library.ld"

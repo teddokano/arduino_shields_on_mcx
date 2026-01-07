@@ -6,7 +6,7 @@
  * Generated linker script file for MCXC444
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:52:28
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:03:41
  */
 
 INCLUDE "LCD_PCA8561AHN-ARD_2_demo_FRDM_MCXC444_Release_library.ld"

@@ -6,7 +6,7 @@
  * Generated linker script file for MCXC444
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:56:51
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:16:33
  */
 
 INCLUDE "RTC_PCF2131-ARD_SPI_2_interrupts_FRDM_MCXC444_Debug_library.ld"

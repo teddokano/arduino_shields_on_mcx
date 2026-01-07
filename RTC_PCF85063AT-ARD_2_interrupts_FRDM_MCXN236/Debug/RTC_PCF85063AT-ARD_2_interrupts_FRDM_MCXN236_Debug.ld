@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN236
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:57:29
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:17:10
  */
 
 INCLUDE "RTC_PCF85063AT-ARD_2_interrupts_FRDM_MCXN236_Debug_library.ld"

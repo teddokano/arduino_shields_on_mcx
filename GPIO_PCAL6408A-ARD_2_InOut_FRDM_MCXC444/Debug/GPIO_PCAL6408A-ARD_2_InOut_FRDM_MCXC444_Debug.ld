@@ -6,7 +6,7 @@
  * Generated linker script file for MCXC444
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/06 18:57:09
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 2026/01/07 14:16:50
  */
 
 INCLUDE "GPIO_PCAL6408A-ARD_2_InOut_FRDM_MCXC444_Debug_library.ld"
